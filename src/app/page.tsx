@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import KreedImage from '../../public/kreed.jpg';
 import KreedLaptopImage from '../../public/kreedlaptop.jpg';
+import TransparentImage from '../../public/transparent.png';
 
 export default function Home() {
   return (
@@ -54,7 +55,7 @@ export default function Home() {
           <div className="flex flex-col md:flex-row items-center justify-between gap-12">
             <div className="w-full md:w-1/2" data-aos="fade-right" data-aos-duration="1000">
               <h1 className="text-4xl md:text-6xl font-bold leading-tight mb-6">
-                Africa's First <span className="gradient-text">Learn-to-Earn</span> Tech Academy
+                Africa&apos;s First <span className="gradient-text">Learn-to-Earn</span> Tech Academy
               </h1>
               <p className="text-lg md:text-xl text-gray-300 mb-8">
                 Combining practical digital skills training, a hiring marketplace, and Web3 rewards to turn learning into real-world opportunity.
@@ -70,7 +71,7 @@ export default function Home() {
               <div className="mt-12 flex items-center">
                 <p className="text-gray-400 mr-4">Powered by</p>
                 <div className="flex items-center cardano-logo">
-                  <img src="https://cardano.org/img/cardano-logo-blue.svg" alt="Cardano" className="mr-2 h-8" />
+                  <Image src="https://cardano.org/img/cardano-logo-blue.svg" alt="Cardano" width={100} height={32} className="mr-2 h-8" />
                   {/* <span className="text-gray-200">Cardano</span> */}
                 </div>
               </div>
@@ -126,10 +127,10 @@ export default function Home() {
             <div className="w-full md:w-1/2" data-aos="fade-right">
               <h2 className="text-2xl md:text-3xl font-bold mb-6">Our Vision</h2>
               <p className="text-gray-300 mb-6">
-                We're building a self-sustaining educational ecosystem that addresses Africa's tech skills gap while creating economic opportunities through blockchain technology.
+                We&apos;re building a self-sustaining educational ecosystem that addresses Africa&apos;s tech skills gap while creating economic opportunities through blockchain technology.
               </p>
               <p className="text-gray-300">
-                By combining education with incentives and employment pathways, we're transforming how tech skills are acquired, validated, and monetized across the continent.
+                By combining education with incentives and employment pathways, we&apos;re transforming how tech skills are acquired, validated, and monetized across the continent.
               </p>
             </div>
 
@@ -216,7 +217,7 @@ export default function Home() {
                   </ul>
                 </div>
                 <div className="w-full md:w-1/2">
-                  <img src="/api/placeholder/500/300" alt="Blockchain Verification" className="rounded-xl w-full blur-load" />
+                  <Image src={TransparentImage} alt="Blockchain Verification" width={80} height={30} className="rounded-xl w-full blur-load h-60" />
                 </div>
               </div>
             </div>
@@ -229,7 +230,7 @@ export default function Home() {
         <div className="container mx-auto z-10">
           <div className="text-center mb-16" data-aos="fade-up">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">The Cardano Advantage</h2>
-            <p className="text-lg text-gray-300 max-w-3xl mx-auto">Leveraging Cardano's sustainable blockchain technology to power our educational ecosystem.</p>
+            <p className="text-lg text-gray-300 max-w-3xl mx-auto">Leveraging Cardano&apos;s sustainable blockchain technology to power our educational ecosystem.</p>
           </div>
 
           <div className="flex flex-col md:flex-row gap-12 items-center">
@@ -244,7 +245,7 @@ export default function Home() {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div className="card p-6 rounded-xl">
                   <h3 className="text-xl font-bold mb-3">Sustainable & Eco-friendly</h3>
-                  <p className="text-gray-300">Cardano's proof-of-stake protocol consumes minimal energy, aligning with our commitment to sustainability.</p>
+                  <p className="text-gray-300">Cardano&apos;s proof-of-stake protocol consumes minimal energy, aligning with our commitment to sustainability.</p>
                 </div>
 
                 <div className="card p-6 rounded-xl">
@@ -266,7 +267,7 @@ export default function Home() {
               <div className="mt-8 p-4 bg-gray-800/50 rounded-lg border border-gray-700">
                 <p className="text-sm text-gray-300">
                   <i className="fas fa-info-circle mr-2 text-green-400"></i>
-                  KreedTech utilizes Cardano's native tokens and smart contracts to create a transparent, efficient, and accessible educational ecosystem.
+                  KreedTech utilizes Cardano&apos;s native tokens and smart contracts to create a transparent, efficient, and accessible educational ecosystem.
                 </p>
               </div>
             </div>
@@ -279,7 +280,7 @@ export default function Home() {
         <div className="container mx-auto z-10">
           <div className="text-center mb-16" data-aos="fade-up">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">Digital Skills for Tomorrow</h2>
-            <p className="text-lg text-gray-300 max-w-3xl mx-auto">Our curriculum covers high-demand skills that drive Africa's digital economy forward.</p>
+            <p className="text-lg text-gray-300 max-w-3xl mx-auto">Our curriculum covers high-demand skills that drive Africa&apos;s digital economy forward.</p>
           </div>
 
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
@@ -386,7 +387,7 @@ export default function Home() {
                 </div>
               </div>
               <p className="text-gray-300">
-                "KreedTech's learn-to-earn model kept me motivated throughout my journey. I earned ADA tokens while building real-world projects, and landed a job within weeks of completing the program."
+                &quot;KreedTech&apos;s learn-to-earn model kept me motivated throughout my journey. I earned ADA tokens while building real-world projects, and landed a job within weeks of completing the program.&quot;
               </p>
             </div>
 
@@ -410,7 +411,7 @@ export default function Home() {
                 </div>
               </div>
               <p className="text-gray-300">
-                "The blockchain-verified credentials made all the difference in my job search. Employers trusted my skills immediately, and the hiring marketplace connected me with opportunities I wouldn't have found elsewhere."
+                &quot;The blockchain-verified credentials made all the difference in my job search. Employers trusted my skills immediately, and the hiring marketplace connected me with opportunities I wouldn&apos;t have found elsewhere.&quot;
               </p>
             </div>
 
@@ -434,7 +435,7 @@ export default function Home() {
                 </div>
               </div>
               <p className="text-gray-300">
-                "From zero coding knowledge to building apps in months. The practical curriculum and reward system kept me engaged, and I even earned enough ADA to cover some of my living expenses during training."
+                &quot;From zero coding knowledge to building apps in months. The practical curriculum and reward system kept me engaged, and I even earned enough ADA to cover some of my living expenses during training.&quot;
               </p>
             </div>
           </div>
@@ -449,7 +450,7 @@ export default function Home() {
             <div className="card p-8 md:p-12 rounded-xl border border-gray-800" data-aos="zoom-in">
               <div className="text-center mb-8">
                 <h2 className="text-3xl md:text-4xl font-bold mb-4">Join the Waitlist</h2>
-                <p className="text-lg text-gray-300">Be among the first to experience Africa's revolutionary learn-to-earn tech academy.</p>
+                <p className="text-lg text-gray-300">Be among the first to experience Africa&apos;s revolutionary learn-to-earn tech academy.</p>
               </div>
 
               <form id="waitlistForm" className="space-y-6">
@@ -505,24 +506,24 @@ export default function Home() {
         <div className="container mx-auto z-10">
           <div className="text-center mb-12" data-aos="fade-up">
             <h2 className="text-2xl md:text-3xl font-bold mb-4">Trusted Partners</h2>
-            <p className="text-lg text-gray-300 max-w-3xl mx-auto">We're backed by leading technology and education partners across Africa.</p>
+            <p className="text-lg text-gray-300 max-w-3xl mx-auto">We&apos;re backed by leading technology and education partners across Africa.</p>
           </div>
 
           <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-8 items-center justify-items-center" data-aos="fade-up">
             <div className="w-32 h-16 flex items-center justify-center">
-              <img src="https://cardano.org/img/logos/emurgo.svg" alt="Partner Logo" className="max-w-full max-h-full filter grayscale hover:grayscale-0 transition-all duration-300" />
+              <Image src="https://cardano.org/img/logos/emurgo.svg" width={100} height={32} alt="Partner Logo" className="max-w-full max-h-full filter grayscale hover:grayscale-0 transition-all duration-300" />
             </div>
             <div className="w-32 h-16 flex items-center justify-center">
-              <img src="https://cardano.org/img/logos/iog.svg" alt="Partner Logo" className="max-w-full max-h-full filter grayscale hover:grayscale-0 transition-all duration-300" />
+              <Image src="https://cardano.org/img/logos/iog.svg" width={100} height={32} alt="Partner Logo" className="max-w-full max-h-full filter grayscale hover:grayscale-0 transition-all duration-300" />
             </div>
             <div className="w-32 h-16 flex items-center justify-center">
-              <img src="https://cardano.org/img/logos/intersect.svg" alt="Partner Logo" className="max-w-full max-h-full filter grayscale hover:grayscale-0 transition-all duration-300" />
+              <Image src="https://cardano.org/img/logos/intersect.svg" width={100} height={32} alt="Partner Logo" className="max-w-full max-h-full filter grayscale hover:grayscale-0 transition-all duration-300" />
             </div>
             <div className="w-32 h-16 flex items-center justify-center">
-              <img src="https://cardano.org/img/logos/pragma.svg" alt="Partner Logo" className="max-w-full max-h-full filter grayscale hover:grayscale-0 transition-all duration-300" />
+              <Image src="https://cardano.org/img/logos/pragma.svg" width={100} height={32} alt="Partner Logo" className="max-w-full max-h-full filter grayscale hover:grayscale-0 transition-all duration-300" />
             </div>
             <div className="w-32 h-16 flex items-center justify-center">
-              <img src="https://cardano.org/img/logos/cardanofoundation.svg" alt="Partner Logo" className="max-w-full max-h-full filter grayscale hover:grayscale-0 transition-all duration-300" />
+              <Image src="https://cardano.org/img/logos/cardanofoundation.svg" width={100} height={32} alt="Partner Logo" className="max-w-full max-h-full filter grayscale hover:grayscale-0 transition-all duration-300" />
             </div>
 
           </div>
@@ -538,7 +539,7 @@ export default function Home() {
                 <span className="text-white font-bold text-2xl">Kreed<span className="gradient-text">Tech</span></span>
               </div>
               <p className="text-gray-300 mb-6 max-w-md">
-                Building Africa's first learn-to-earn tech academy on the Cardano blockchain, transforming education and employment opportunities.
+                Building Africa&apos;s first learn-to-earn tech academy on the Cardano blockchain, transforming education and employment opportunities.
               </p>
               <div className="flex space-x-4">
                 <a href="#" className="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center text-gray-300 hover:bg-green-700 hover:text-white transition-colors duration-300">
@@ -608,8 +609,8 @@ export default function Home() {
             <div className="w-16 h-16 bg-green-600/20 rounded-full flex items-center justify-center mx-auto mb-4">
               <i className="fas fa-check-circle text-3xl text-green-500"></i>
             </div>
-            <h3 className="text-2xl font-bold mb-2">You're on the list!</h3>
-            <p className="text-gray-300">Thank you for joining the KreedTech waitlist. We'll keep you updated on our launch and early access opportunities.</p>
+            <h3 className="text-2xl font-bold mb-2">You&apos;re on the list!</h3>
+            <p className="text-gray-300">Thank you for joining the KreedTech waitlist. We&apos;ll keep you updated on our launch and early access opportunities.</p>
           </div>
           <button id="closeModal" className="btn-primary w-full py-3 rounded-lg font-medium">
             Continue Exploring
