@@ -1,4 +1,6 @@
-import Image from "next/image";
+import Image from 'next/image';
+import KreedImage from '../../public/kreed.jpg';
+import KreedLaptopImage from '../../public/kreedlaptop.jpg';
 
 export default function Home() {
   return (
@@ -68,15 +70,15 @@ export default function Home() {
               <div className="mt-12 flex items-center">
                 <p className="text-gray-400 mr-4">Powered by</p>
                 <div className="flex items-center cardano-logo">
-                  <img src="/api/placeholder/40/40" alt="Cardano" className="mr-2" />
-                  <span className="text-gray-200">Cardano</span>
+                  <img src="https://cardano.org/img/cardano-logo-blue.svg" alt="Cardano" className="mr-2 h-8" />
+                  {/* <span className="text-gray-200">Cardano</span> */}
                 </div>
               </div>
             </div>
 
             <div className="w-full md:w-1/2 relative glow" data-aos="fade-left" data-aos-duration="1200">
               <div className="relative">
-                <img src="/api/placeholder/600/500" alt="KreedTech Platform" className="rounded-2xl shadow-2xl w-full blur-load" />
+                <Image src={KreedLaptopImage} alt="KreedTech Platform" className="rounded-2xl shadow-2xl w-full blur-load" />
                 <div className="absolute -top-4 -right-4 bg-gradient-to-br from-green-500 to-emerald-700 px-4 py-1 rounded-lg text-sm font-semibold">
                   Now in Beta
                 </div>
@@ -134,7 +136,7 @@ export default function Home() {
             <div className="w-full md:w-1/2" data-aos="fade-left">
               <div className="relative">
                 <div className="absolute inset-0 bg-gradient-to-br from-green-500/20 to-transparent rounded-xl"></div>
-                <img src="/api/placeholder/500/300" alt="KreedTech Vision" className="rounded-xl w-full blur-load" />
+                <Image src={KreedImage} alt="KreedTech Vision" className="rounded-xl w-full blur-load" />
               </div>
             </div>
           </div>
@@ -234,7 +236,7 @@ export default function Home() {
             <div className="w-full md:w-2/5" data-aos="fade-right">
               <div className="relative p-4">
                 <div className="absolute inset-0 bg-gradient-to-br from-green-600/20 to-transparent rounded-full"></div>
-                <img src="/api/placeholder/400/400" alt="Cardano Blockchain" className="mx-auto cardano-logo" />
+                <img src="https://cardano.org/img/cardano-logo-blue.svg" alt="Cardano Blockchain" className="mx-auto cardano-logo" />
               </div>
             </div>
 
@@ -506,25 +508,23 @@ export default function Home() {
             <p className="text-lg text-gray-300 max-w-3xl mx-auto">We're backed by leading technology and education partners across Africa.</p>
           </div>
 
-          <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-8 items-center justify-items-center" data-aos="fade-up">
+          <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-8 items-center justify-items-center" data-aos="fade-up">
             <div className="w-32 h-16 flex items-center justify-center">
-              <img src="/api/placeholder/128/64" alt="Partner Logo" className="max-w-full max-h-full filter grayscale hover:grayscale-0 transition-all duration-300" />
+              <img src="https://cardano.org/img/logos/emurgo.svg" alt="Partner Logo" className="max-w-full max-h-full filter grayscale hover:grayscale-0 transition-all duration-300" />
             </div>
             <div className="w-32 h-16 flex items-center justify-center">
-              <img src="/api/placeholder/128/64" alt="Partner Logo" className="max-w-full max-h-full filter grayscale hover:grayscale-0 transition-all duration-300" />
+              <img src="https://cardano.org/img/logos/iog.svg" alt="Partner Logo" className="max-w-full max-h-full filter grayscale hover:grayscale-0 transition-all duration-300" />
             </div>
             <div className="w-32 h-16 flex items-center justify-center">
-              <img src="/api/placeholder/128/64" alt="Partner Logo" className="max-w-full max-h-full filter grayscale hover:grayscale-0 transition-all duration-300" />
+              <img src="https://cardano.org/img/logos/intersect.svg" alt="Partner Logo" className="max-w-full max-h-full filter grayscale hover:grayscale-0 transition-all duration-300" />
             </div>
             <div className="w-32 h-16 flex items-center justify-center">
-              <img src="/api/placeholder/128/64" alt="Partner Logo" className="max-w-full max-h-full filter grayscale hover:grayscale-0 transition-all duration-300" />
+              <img src="https://cardano.org/img/logos/pragma.svg" alt="Partner Logo" className="max-w-full max-h-full filter grayscale hover:grayscale-0 transition-all duration-300" />
             </div>
             <div className="w-32 h-16 flex items-center justify-center">
-              <img src="/api/placeholder/128/64" alt="Partner Logo" className="max-w-full max-h-full filter grayscale hover:grayscale-0 transition-all duration-300" />
+              <img src="https://cardano.org/img/logos/cardanofoundation.svg" alt="Partner Logo" className="max-w-full max-h-full filter grayscale hover:grayscale-0 transition-all duration-300" />
             </div>
-            <div className="w-32 h-16 flex items-center justify-center">
-              <img src="/api/placeholder/128/64" alt="Partner Logo" className="max-w-full max-h-full filter grayscale hover:grayscale-0 transition-all duration-300" />
-            </div>
+
           </div>
         </div>
       </section>
@@ -575,7 +575,7 @@ export default function Home() {
                 </li>
                 <li className="flex items-center">
                   <i className="fas fa-map-marker-alt mr-3 text-green-500"></i>
-                  <span className="text-gray-300">Lagos, Nigeria</span>
+                  <span className="text-gray-300">Bauchi, Nigeria</span>
                 </li>
                 <li className="flex items-center">
                   <i className="fas fa-headset mr-3 text-green-500"></i>
